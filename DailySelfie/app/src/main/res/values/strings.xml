@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DailySelfie</string>
+    <string name="action_camera">Camera</string>
+    <string name="action_delete_selected">Delete Selected</string>
+    <string name="action_delete_all">Delete All</string>
+    <string name="action_start_alarm">Set Alarm</string>
+    <string name="action_cancel_alarm">Cancel Alarm</string>
+    <string name="camera_alert">Time to take a selfie!</string>
+    <string name="camera_alert_ticker">Reminder: please take your daily selfie now</string>
+    <string name="alarm_set_msg">DailySelfie Alarm Set</string>
+    <string name="alarm_cancelled_msg">DailySelfie Alarm Cancelled</string>
+    <string name="boot_completed_ref">android.intent.action.BOOT_COMPLETED</string>
+    <string name="quickboot_poweron_ref">"android.intent.action.QUICKBOOT_POWERON"</string>
+    <string name="date_parse_error">"Could not parse a date from the selfie file name"</string>
+    <string name="delete_selfie_error">"Could not delete the selfie file: "</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/listRow">
+
+    <ImageView
+        android:id="@+id/thumbnail_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/thumbnail_text"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_alignParentRight="true"/>
+
+    <CheckBox
+        android:id="@+id/check"
+        android:button="@drawable/custom_checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:layout_below="@id/thumbnail_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/thumbnail_img">
+    </CheckBox>
+
+</RelativeLayout>

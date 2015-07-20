@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <item
+        android:state_checked="false"
+        android:drawable="@drawable/ic_trash_unchecked"/>
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/ic_trash_checked" />
+    <item
+        android:drawable="@drawable/ic_trash_unchecked" /> <!-- default -->
+
+</selector>
